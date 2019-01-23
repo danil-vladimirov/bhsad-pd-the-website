@@ -4,4 +4,4 @@ Resources for 5ftc1225-gd-pd 'The Website' project.
 ## Legend
 
 - _blank = clean version
-- _paly = done in class
+- _play = done in class
