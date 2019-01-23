@@ -1,5 +1,5 @@
-# 5ftc1225-gd-pd BHSAD 18/19 L5 GD PD The Website
-Resources for 'The Website' project.
+# BHSAD 18/19 L5 GD PD The Website
+Resources for 5ftc1225-gd-pd 'The Website' project.
 
 ## Legend
 
