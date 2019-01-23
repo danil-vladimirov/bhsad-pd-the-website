@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Obligat';
+  src: url('../fonts/RTObligatFREE.otf');
+}
+
+.box {
+  display: flex;
+  font-family: 'Obligat';
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.item {
+  width: 100%;
+  padding: 20px;
+  outline: solid 1px #000000;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width:640px) {
+  .box {
+    flex-wrap: wrap;
+  }
+  .hide {
+    display: none;
+  }
+}
