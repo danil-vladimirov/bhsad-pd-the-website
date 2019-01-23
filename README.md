@@ -3,5 +3,5 @@ Resources for 'The Website' project.
 
 ## Legend
 
-_blank = before
-_paly = after/done in class
+- _blank = before
+- _paly = after/done in class
