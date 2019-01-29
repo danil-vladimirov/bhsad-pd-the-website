@@ -1,0 +1,23 @@
+body {
+  /* background-color: rgb(206, 206, 206); */
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 8vw;
+  margin: 0;
+  margin-bottom: 4vh;
+}
+
+img {
+  width: 50%
+}
+
+p {
+  font-size: 5vw;
+  line-height: 5vw;
+}
+
+button {
+  margin-bottom: 2vh;
+}

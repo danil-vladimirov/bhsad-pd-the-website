@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Playground</title>
+	  <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.sound.min.js"></script>
+  </head>
+  <body onload="recolor()">
+    <div class="headline">
+      <h1 id="head">playground</h1>
+    </div>
+    <button type="button" onclick="sayHello()">Say hello</button>
+    <button type="button" onclick="newHead()">New headline please</button>
+    <button type="button" onclick="newImage()">New image please</button>
+    <button type="button" onclick="newParagraph()">Add paragraphs</button>
+    <div id="empty"></div>
+    <div class="image">
+      <img src="images/cloud.jpg" id="pic">
+    </div>
+    <div class="text">
+      <p>Today, I want to challenge us all to have greater
+   ambitions for the web. I want the web to reflect our
+   hopes and fulfil our dreams, rather than magnify
+   our fears and deepen our divisions. Sir Tim Berners-Lee<br>
+   <a href="https://webfoundation.org/2018/03/web-birthday-29/">The web is under threat</a>
+      </p>
+    </div>
+      <script src="Script/script.js"></script>
+      <script src="Script/draw.js"></script>
+  </body>
+</html>
