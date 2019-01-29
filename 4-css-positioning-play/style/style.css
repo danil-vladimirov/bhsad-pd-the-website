@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #BBBBBB;
+}
+
+.wrapper {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Intro */
+
+.intro {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.header {
+  font-family: Arial;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.text {
+  font-family: Arial;
+  font-size: 24px;
+}
+
+/* Intro Centered left */
+
+.header-left-centered {
+  font-family: Arial;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.text-left-centered {
+  font-family: Arial;
+  font-size: 24px;
+  flex-grow: 1;
+}
+
+/* Intro Bottom left */
+
+.header-left-bottom {
+  font-family: Arial;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.text-left-bottom {
+  font-family: Arial;
+  font-size: 24px;
+  flex-grow: 0;
+}
+
+/* Intro Top left half */
+
+.header-left-top-half {
+  font-family: Arial;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.text-left-top-half {
+  font-family: Arial;
+  font-size: 24px;
+  width: 50%;
+}
+
+/* Intro Bottom left half */
+
+.header-left-bottom-half {
+  font-family: Arial;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.text-left-bottom-half {
+  font-family: Arial;
+  font-size: 24px;
+  width: 50%;
+}
+
+/* Intro Bottom right half */
+
+.header-right-bottom-half {
+  font-family: Arial;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.text-right-bottom-half {
+  font-family: Arial;
+  font-size: 24px;
+  width: 50%;
+  align-self: flex-end;
+}
+
+/* Intro Top right half */
+
+.intro-top-right-half {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+}
+
+.header-top-right-half {
+  font-family: Arial;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+.text-top-right-half {
+  font-family: Arial;
+  font-size: 24px;
+  width: 50%;
+  flex: 1;
+}
+
+/* Intro Centered half */
+
+.intro-top-right-half {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.header-top-right-half {
+  font-family: Arial;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.text-top-right-half {
+  font-family: Arial;
+  font-size: 24px;
+  width: 50%;
+  flex-grow: 1;
+}
+
+/* Extra div for rotation */
+
+.rotated {
+  width: 400px;
+  height: 400px;
+  transform: rotate(-90deg);
+}
+
+/* Rest of styles */
+
+.about {
+  font-family: Arial;
+  font-size: 24px;
+  margin-bottom: 20px;
+  width: 40%;
+  display: inline-block;
+}
+
+.film {
+  margin-bottom: 20px;
+}
+
+.film video {
+  width: 40%;
+}
+
+.posters {
+  margin-bottom: 20px;
+}
+
+.poster  {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.poster img {
+  height: 500px;
+}
+
+.links  {
+}
+
+.links a  {
+  font-family: Arial;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.portrait {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+}
+
+.portrait img {
+  box-shadow: 10px 10px 40px #000000;
+  height: 250px;
+}
+
+/* For photo.html */
+
+.center-photo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
