@@ -1,0 +1,18 @@
+/* Add your font */
+
+@font-face {
+  font-family: 'FontTitle';
+  src: url('../fonts/FontTitle.otf');
+}
+
+/* Your styles */
+
+body {
+}
+
+/* Screen sizes, define size between two screen width numbers */
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  body {
+  }
+}
